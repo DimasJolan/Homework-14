@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #333;
+  }
+  
+  form {
+    display: inline-block;
+    width: 40rem;
+    border: 1px solid slategrey;
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: left;
+    border-radius: 5px;
+    background: #fff;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    height: 2rem;
+    border: 1px solid slategrey;
+    border-radius: 3px;
+    padding: 0.5rem;
+  }
+  
+  form textarea {
+    width: 100%;
+    height: 10rem;
+    max-height: 10rem;
+    max-width: 100%;
+  }
+  
+  form input[type="submit"] {
+    display: block;
+    border: none;
+    border-radius: 3px;
+    background-color: turquoise;
+    height: 2rem;
+    cursor: pointer;
+    border: 1px solid slategrey;
+    border-radius: 3px;
+  }
+  
+  .comment {
+    border: 1px solid slategrey;
+    border-radius: 5px;
+  }
+  
+  .comment {
+    width: 40rem;
+    padding: 1rem;
+    text-align: left;
+    margin: 0 auto 0.5rem;
+  }
+  
+  .comment i {
+    color: grey;
+    font-size: 0.85rem;
+  }
+  
+  .comment button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    border: 1px solid slategrey;
+    border-radius: 3px;
+  }
+  
+  .comment .edit {
+    background-color: turquoise;
+  }
+  
+  .comment .delete {
+    margin-left: 0.25rem;
+    background-color: lightcoral;
+  }
+  
+  .comment .panel {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #modal form {
+    padding: 2rem;
+    width: 50rem;
+  }
